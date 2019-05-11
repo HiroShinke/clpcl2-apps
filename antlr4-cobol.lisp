@@ -15,7 +15,7 @@
 
 (defun grammar-ast ()
   (let* ((path (asdf:system-relative-pathname
-		:convertantlr4 *antlr4-grammar*))
+		:convertantlr42 *antlr4-grammar*))
 	 (str (uiop:read-file-string path)))
     (antlr4-str-to-grammar str)
     )
