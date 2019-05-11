@@ -5,7 +5,7 @@
   (:use :cl :asdf :uiop))
 (in-package :test-convertantlr4-asd)
 
-(defsystem "test-convertantlr4"
+(defsystem "test-convertantlr42"
   :version "0.0.1"
   :author "hiro.shinke"
   :depends-on (:convertantlr42

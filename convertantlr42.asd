@@ -12,6 +12,6 @@
 	       :optima
 	       )
   :components ((:file "convertantlr4"))
-  :in-order-to ((test-op (test-op test-convertantlr4)))
+  :in-order-to ((test-op (test-op test-convertantlr42)))
 )
 
